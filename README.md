@@ -39,8 +39,15 @@
 
 ## What This Does
 
-<!-- Your community, and what your classifier sorts posts into. Three or four
-     sentences. -->
+This classifier sorts posts from **r/MakeupAddiction**, a public Reddit community focused on makeup discussion and sharing. The community has high activity and real variation in post types — from product reviews to technique questions to before-and-after looks.
+
+After reading 30-40 posts from the community, I identified three candidate distinctions that separate posts:
+
+1. **Product information placement**: Some posts explicitly explain which products were used in the original post. Others show a makeup look but defer product details to the comments, where people ask and the OP answers.
+
+2. **Post intent / Type**: Some posts are asking questions ("How do I achieve this look?" or "What product should I use?"). Others are sharing a completed result or look.
+
+3. **Product review vs. other focus**: Some posts are focused on reviewing or judging a product (discussing pros, cons, and whether it's good). Others focus on techniques, looks, or asking for help.
 
 
 
